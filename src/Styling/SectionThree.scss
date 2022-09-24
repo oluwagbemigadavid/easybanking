@@ -1,0 +1,14 @@
+.section-three-container {
+    background-color: hsl(0, 0%, 98%);
+    padding-top: 10%;
+    .section-three-contents {
+        padding: 5%;
+        .title {            
+            h1 {
+                width: 80%;
+                margin: auto;
+                font-size: 42px;
+            } 
+        }
+    }
+}

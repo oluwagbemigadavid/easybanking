@@ -1,0 +1,33 @@
+.section-one-container {
+  padding-bottom: 10%;
+}
+.section-one-container .background-image {
+  position: relative;
+  overflow: hidden;
+}
+.section-one-container .background-image .bgMobile img {
+  width: 100%;
+  margin-top: -10%;
+}
+.section-one-container .background-image .bgImg {
+  position: absolute;
+  top: 0;
+  margin-top: -35%;
+}
+.section-one-container .background-image .bgImg img {
+  width: 100%;
+}
+.section-one-container .title {
+  color: hsl(233deg, 26%, 24%);
+}
+.section-one-container .title h1 {
+  width: 80%;
+  margin: auto;
+  font-size: 42px;
+}
+.section-one-container .title p {
+  padding: 5% 0;
+  width: 95%;
+  margin: auto;
+  color: hsl(233deg, 8%, 62%);
+}/*# sourceMappingURL=SectionOne.css.map */

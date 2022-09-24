@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: hsl(233deg, 26%, 24%);
+  padding: 10% 5%;
+}
+.footer-container .footer-contents .logo {
+  mix-blend-mode: screen;
+}
+.footer-container .footer-contents .footer-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5% 0;
+  transition: opacity 450ms ease;
+}
+.footer-container .footer-contents .footer-menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=Footer.css.map */

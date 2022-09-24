@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  .menu {
+    margin-left: 5%;
+  }
+  .btn {
+    display: none;
+  }
+}

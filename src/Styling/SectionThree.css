@@ -1,0 +1,12 @@
+.section-three-container {
+  background-color: hsl(0deg, 0%, 98%);
+  padding-top: 10%;
+}
+.section-three-container .section-three-contents {
+  padding: 5%;
+}
+.section-three-container .section-three-contents .title h1 {
+  width: 80%;
+  margin: auto;
+  font-size: 42px;
+}/*# sourceMappingURL=SectionThree.css.map */

@@ -1,0 +1,12 @@
+.section-two-container {
+  background-color: hsl(220deg, 16%, 96%);
+  padding-top: 10%;
+}
+.section-two-container .section-two-contents {
+  padding: 5%;
+}
+.section-two-container .section-two-contents .title h1 {
+  width: 80%;
+  margin: auto;
+  font-size: 42px;
+}/*# sourceMappingURL=SectionTwo.css.map */

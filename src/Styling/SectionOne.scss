@@ -1,0 +1,35 @@
+.section-one-container {
+    padding-bottom: 10%;
+    .background-image {
+        position: relative;
+        overflow: hidden;
+        .bgMobile {
+            img {
+                width: 100%;
+                margin-top: -10%;
+            }
+        }
+        .bgImg {
+            position: absolute;
+            top: 0;
+            margin-top: -35%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .title {
+        color: hsl(233, 26%, 24%);
+        h1 {
+            width: 80%;
+            margin: auto;
+            font-size: 42px;
+        } 
+        p {
+            padding: 5% 0;
+            width: 95%;
+            margin: auto;
+            color: hsl(233, 8%, 62%);
+        }
+    }
+}

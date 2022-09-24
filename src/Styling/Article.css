@@ -1,0 +1,25 @@
+.article {
+  background-color: hsl(0deg, 0%, 100%);
+  width: 100%;
+  margin: 15% 0;
+  border-radius: 10px;
+}
+.article img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.article .section-three-body {
+  padding: 10%;
+  text-align: left;
+}
+.article .section-three-body h5, .article .section-three-body h2, .article .section-three-body p {
+  margin: 0;
+}
+.article .section-three-body h5 {
+  margin: 5% 0;
+  color: hsl(233deg, 8%, 62%);
+}
+.article .section-three-body h2 {
+  font-size: 18px;
+}/*# sourceMappingURL=Article.css.map */

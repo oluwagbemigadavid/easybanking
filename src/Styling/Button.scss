@@ -1,0 +1,15 @@
+:root {
+    --colorA: none;
+    --colorB: none;
+  }
+  
+.btn {
+    margin: 5% auto;
+    padding: 4.5% 10%;
+    font-size: 20px;
+    color: hsl(0, 0%, 98%);
+    background-image: linear-gradient(to right, var(--colorA) , var(--colorB));
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
