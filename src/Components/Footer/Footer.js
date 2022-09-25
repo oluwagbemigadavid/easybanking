@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer-container'>
       <div className="footer-contents">  
         <img src={logo}  alt="logo" className='logo'/>
-        <Icons />
+        <Icons className="icons" />
         <div className="footer-menu" >
           <a href="/">About Us</a>
           <a href="/">Contact</a>
@@ -17,6 +17,7 @@ const Footer = () => {
           <a href="/">Support</a>
           <a href="/">Privacy Policy</a>
           </div>
+
           <Button color1={'hsl(136, 65%, 51%)'} color2={' hsl(192, 70%, 51%)'} text={'Request Invite'} className="btn"/>
 
           <p> &copy; Easybank. All Rights Reserverd</p>

@@ -22,3 +22,62 @@
         }
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .footer-container {
+        height: 15vh;
+        padding: 3% 10% 1%;
+        .footer-contents {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+            grid-template-rows: .1fr .5fr .1fr;
+            grid-template-areas: 
+            "logo menu blank footer"
+            "blank2 menu blank footer"
+            "links menu blank copy"
+            ;
+            width: 100%;
+            position: relative;
+            .logo {
+                grid-area: logo;
+                mix-blend-mode: screen;
+                width: 150px;
+                height: 30px;
+            }
+            .icons {
+                grid-area: links;
+                padding: 0;
+                position: absolute;
+                bottom: 20%;
+            }
+            .footer-menu {
+                grid-area: menu;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                position: relative;
+                padding: 0;
+                text-align: left;
+                a {
+                    margin: 0;
+                }
+                a:hover {
+                    color: hsl(136, 65%, 51%);
+                }
+            }
+            .btn {
+                grid-area: footer;
+                padding: 5% 15%;
+                font-size: 18px;
+                position: absolute;
+                right: 0;
+                top: -10%;
+            }
+            p {
+                grid-area: copy;
+                text-align: right;
+                padding: 0;
+                margin-top: 10%;
+            }
+        }
+    }
+}

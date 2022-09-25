@@ -9,6 +9,9 @@
   width: 100%;
   margin-top: -10%;
 }
+.section-one-container .background-image .bgDesk {
+  display: none;
+}
 .section-one-container .background-image .bgImg {
   position: absolute;
   top: 0;
@@ -29,5 +32,62 @@
   padding: 5% 0;
   width: 95%;
   margin: auto;
-  color: hsl(233deg, 8%, 62%);
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-one-container {
+    position: relative;
+    height: 48vh;
+  }
+  .section-one-container .background-image {
+    width: 65%;
+    height: 120vh;
+    position: absolute;
+    right: 0;
+  }
+  .section-one-container .background-image .bgMobile {
+    display: none;
+  }
+  .section-one-container .background-image .bgDesk {
+    display: block;
+  }
+  .section-one-container .background-image .bgDesk img {
+    width: 100%;
+    margin-top: -13%;
+    margin-right: -35%;
+  }
+  .section-one-container .background-image .bgImg {
+    position: absolute;
+    z-index: 12;
+    top: 20%;
+  }
+  .section-one-container .background-image .bgImg img {
+    width: 90%;
+    margin-right: -65%;
+  }
+  .section-one-container .title {
+    color: hsl(233deg, 26%, 24%);
+    padding-left: 10%;
+    padding-top: 10%;
+    text-align: left;
+    align-items: center;
+    position: absolute;
+  }
+  .section-one-container .title h1 {
+    width: 40%;
+    margin: 0;
+  }
+  .section-one-container .title p {
+    padding: 2% 0;
+    width: 40%;
+    margin: 0;
+    color: hsl(233deg, 8%, 62%);
+  }
+  .section-one-container .btn {
+    margin-left: 10%;
+    font-size: 14px;
+    margin-top: 25%;
+    position: absolute;
+    left: 0;
+  }
 }/*# sourceMappingURL=SectionOne.css.map */

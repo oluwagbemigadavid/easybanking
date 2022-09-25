@@ -3,3 +3,11 @@
     justify-content: center;
     padding: 5%;
 }
+
+@media only screen and (min-width: 1440px) {
+    .icons {
+        padding: 0;
+        justify-content: left;
+    }
+    
+}

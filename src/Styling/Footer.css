@@ -19,4 +19,59 @@
   color: rgb(255, 255, 255);
   margin: 10px;
   font-size: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-container {
+    height: 15vh;
+    padding: 3% 10% 1%;
+  }
+  .footer-container .footer-contents {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    grid-template-areas: "logo menu blank footer" "blank2 menu blank footer" "links menu blank copy";
+    width: 100%;
+    position: relative;
+  }
+  .footer-container .footer-contents .logo {
+    grid-area: logo;
+    mix-blend-mode: screen;
+    width: 150px;
+    height: 30px;
+  }
+  .footer-container .footer-contents .icons {
+    grid-area: links;
+    padding: 0;
+    position: absolute;
+    bottom: 20%;
+  }
+  .footer-container .footer-contents .footer-menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    padding: 0;
+    text-align: left;
+  }
+  .footer-container .footer-contents .footer-menu a {
+    margin: 0;
+  }
+  .footer-container .footer-contents .footer-menu a:hover {
+    color: hsl(136deg, 65%, 51%);
+  }
+  .footer-container .footer-contents .btn {
+    grid-area: footer;
+    padding: 5% 15%;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+  }
+  .footer-container .footer-contents p {
+    grid-area: copy;
+    text-align: right;
+    padding: 0;
+    margin-top: 10%;
+  }
 }/*# sourceMappingURL=Footer.css.map */

@@ -1,6 +1,7 @@
 import '../Styling/SectionOne.css'
 import bgImg from '../Assets/Images/image-mockups.png'
 import bgMobile from '../Assets/Images/bg-intro-mobile.svg'
+import bgDesk from '../Assets/Images/bg-intro-desktop.svg'
 import Button from './Button'
 
 const SectionOne = (props) => {
@@ -9,6 +10,9 @@ const SectionOne = (props) => {
         <div className="background-image">
             <div className="bgMobile">
                 <img src={bgMobile}  alt="bgMobile" />
+            </div>      
+            <div className="bgDesk">
+                <img src={bgDesk}  alt="bgDesk" />
             </div>      
             <div className="bgImg">
                 <img src={bgImg}  alt="bgImg" />
@@ -20,7 +24,7 @@ const SectionOne = (props) => {
                 for spending, saving, budgeting, investing, and much more.
             </p>
         </div>
-        <Button color1={'hsl(136, 65%, 51%)'} color2={' hsl(192, 70%, 51%)'} text={'Request Invite'} />
+        <Button color1={'hsl(136, 65%, 51%)'} color2={' hsl(192, 70%, 51%)'} text={'Request Invite'} className="soBtn" />
     </div>
   )
 }

@@ -9,4 +9,18 @@
   width: 80%;
   margin: auto;
   font-size: 42px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-three-container {
+    padding: 0;
+    text-align: left;
+  }
+  .section-three-container .section-three-contents {
+    padding: 5% 10%;
+  }
+  .section-three-container .section-three-contents .title h1 {
+    margin: 0;
+    font-size: 42px;
+  }
 }/*# sourceMappingURL=SectionThree.css.map */

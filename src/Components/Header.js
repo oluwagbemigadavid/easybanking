@@ -10,14 +10,18 @@ const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <div className='header'>
-      <img src={logo}  alt="logo" />
-      { !showMenu ? <GiHamburgerMenu onClick={() => setShowMenu(!showMenu)}/> : <GrClose  onClick={() => setShowMenu(!showMenu)}/>}
-      <Menu showMen={showMenu} />
-      
-      <Button color1={'hsl(136, 65%, 51%)'} color2={' hsl(192, 70%, 51%)'} text={'Request Invite'} className="btn"/>
+    <div className="div">
+        <div className='header'>
+        <img src={logo}  alt="logo"  className='logo'/>
+        { !showMenu ? <GiHamburgerMenu onClick={() => setShowMenu(!showMenu)} className="menuIcon" /> : <GrClose  onClick={() => setShowMenu(!showMenu)} className="menuIcon" />}
+        <Menu showMen={showMenu} />
+        
+        <Button color1={'hsl(136, 65%, 51%)'} color2={' hsl(192, 70%, 51%)'} text={'Request Invite'} className="btn"/>
 
+      </div>
+        <div className={` overlay ${showMenu ? 'active' : ''}`}></div>
     </div>
+    
   )
 }
 

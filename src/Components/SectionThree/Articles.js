@@ -27,7 +27,7 @@ const Articles = () => {
             image: plane,
             author: 'Wilson Hutton',
             title: 'Take you Easybank card wherever you go',
-            text: "We want you to enjoy your travels. This is why we don't charge any fees on purchases while youre abroad. We'll even show you..."
+            text: "We want you to enjoy your travels. This is why we don't charge any fees on purchases while youre abroad. We'll even show..."
         },
         {
             id: 4,

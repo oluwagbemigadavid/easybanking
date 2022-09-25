@@ -22,4 +22,32 @@
 }
 .article .section-three-body h2 {
   font-size: 18px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .article {
+    width: 25%;
+    margin: 5% 0;
+    margin-right: 2%;
+    padding-bottom: 2%;
+  }
+  .article img {
+    height: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .article .section-three-body {
+    padding: 10%;
+    text-align: left;
+  }
+  .article .section-three-body h5, .article .section-three-body h2, .article .section-three-body p {
+    margin: 2% 0;
+  }
+  .article .section-three-body h5 {
+    margin: 5% 0;
+  }
+  .article .section-three-body h2:hover {
+    color: hsl(136deg, 65%, 51%);
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=Article.css.map */

@@ -1,3 +1,24 @@
 .box {
     padding: 10% 0;
 }
+
+@media only screen and (min-width: 1440px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 19%;
+        padding: 0%;
+        padding-right: 2%;
+        img {
+            width: 70px;
+            margin-bottom: 10%;
+        }
+        h2 {
+            margin: 1% 0;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}

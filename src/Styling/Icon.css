@@ -3,4 +3,20 @@
 }
 .icon img {
   width: 30px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .icon {
+    margin-left: 0px;
+    margin-right: 3%;
+  }
+  .icon img {
+    width: 20px;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  .icon img:hover {
+    background-color: hsl(136deg, 65%, 51%);
+    border: 1px solid hsl(136deg, 65%, 51%);
+  }
 }/*# sourceMappingURL=Icon.css.map */

@@ -2,9 +2,14 @@
 .App {
   font-family: Public Sans;
   text-align: center; 
+  background-color: hsl(0, 0%, 98%);
 }
 p {
   Font-size: 18px;
   color: hsl(233, 8%, 62%);
   padding: 5% 0;
+}
+
+@media only screen and (min-width: 700px) {
+
 }

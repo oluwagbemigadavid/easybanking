@@ -1,11 +1,64 @@
 .header {
   display: flex;
+  position: relative;
   justify-content: space-between;
-  padding: 5%;
+  background-color: #fff;
+  padding: 3% 5%;
+  z-index: 4;
   .menu {
     margin-left: 5%;
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+    z-index: 3;
   }
   .btn {
+    display: none;
+  }
+}
+  .overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(hsl(233, 26%, 24%), 1), rgba(#000, 0));
+    display: none;
+  }
+  .overlay.active {
+    display: block;
+  }
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    align-items: center;
+    height: 8vh;
+    padding: 0 10%;
+    margin: 0;
+    .logo {
+      width: 100px;
+      height: 20px;
+      position: relative;
+    }
+    .menu {
+      margin-left: 0%;
+      margin-top: 0;
+      flex: 50%;
+      position: relative;
+    }
+    .menuIcon {
+      display: none;
+    }
+    .btn {
+      display: block;
+      position: relative;
+      right: 0;
+      z-index: 2;
+    }
+  }
+  .overlay {
     display: none;
   }
 }

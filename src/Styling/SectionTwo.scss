@@ -12,3 +12,27 @@
         }
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .section-two-container {
+        position: relative;
+        padding: 0;
+        padding-top: 5%;
+        padding-left: 10%;
+        z-index: 3;
+        .section-two-contents {
+            padding: 0;
+            .title{     
+                text-align: left;       
+                h1 {
+                    margin: 0;
+                    margin: 2% 0;
+                } 
+                p {
+                    width: 45%;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
